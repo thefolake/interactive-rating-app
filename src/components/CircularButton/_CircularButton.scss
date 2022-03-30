@@ -1,0 +1,25 @@
+.button {
+  color: var(--lightGrey);
+  cursor: pointer;
+  background: var(--darkBlue);
+  border: 1px solid var(--darkBlue);
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 700;
+  height: 55px;
+  outline: none;
+  width: 55px;
+}
+
+.button:hover {
+  background: var(--orange);
+  border: 1px solid var(--orange);
+  color: var(--white);
+  transition: 0.3s ease-in-out;
+}
+
+.button:focus {
+  background: var(--meduimGrey);
+  border: 1px solid var(--meduimGrey);
+  color: var(--white);
+}
